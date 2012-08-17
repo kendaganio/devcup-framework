@@ -1,3 +1,5 @@
+$darkblue: darken(#2795B6, 10%);
+
 #top-nav {
 
   li {
@@ -5,6 +7,10 @@
     padding: 10px;
   }
 
+  a:hover {
+    color: $darkblue;
+    border-bottom: 2px dotted $darkblue;
+  }
 }
 
 footer {
