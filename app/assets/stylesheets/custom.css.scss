@@ -9,8 +9,24 @@ $darkblue: darken(#2795B6, 10%);
 
   a:hover {
     color: $darkblue;
-    border-bottom: 2px dotted $darkblue;
   }
+}
+
+.facebook_signin {
+  display: inline-block;
+  margin-bottom: -6px;
+  background: url('/assets/signin_facebook.png') no-repeat;
+  height: 24px;
+  width: 150px;
+  border-bottom: 0px none #fff;
+}
+
+.facebook_signin:hover{
+  background-position: 0 -24px;
+}
+
+.facebook_signin:active{
+  background-position: 0 -48px;
 }
 
 footer {
